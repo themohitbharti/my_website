@@ -1,0 +1,45 @@
+
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    padding: 2rem;
+
+}
+
+.acheivements{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.m_heading p{
+  color: brown;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.cards{
+    display: flex;
+    gap: 8%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.cards div{
+    height: 25rem;
+    width: 20rem;
+    margin-bottom: 5%;
+    margin-top: 2.5%;
+}
+.m_card{
+  border-radius: 20px;
+    padding: 4%;
+    margin: 10%;
+    background-color: #a52a2a90;
+}
+
+.m_card img{
+    height: 200px;
+}

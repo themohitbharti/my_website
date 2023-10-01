@@ -1,0 +1,89 @@
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 100;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+.nav{
+    background-color: brown;
+     font-size: 1.5rem;
+    height: 5rem; 
+    display: flex;
+    align-items: center;
+    
+}
+.nav-item{
+    border-radius: 10px;
+}
+.nav-item:hover{
+    background-color: rgb(128, 20, 20);
+}
+.dropdown-menu{
+    background-color:rgb(226, 198, 155);
+}
+.dropdown-item:hover{
+    background-color:rgb(226, 198, 155);
+}
+.nav-link{
+    color: blanchedalmond;
+ 
+    
+}
+.nav-link:hover{
+    color: rgb(231, 170, 92);
+}
+
+.intro{
+    height: 600px;
+    
+   
+   margin: 100px ;
+   margin-left: 125px;
+
+  
+}
+.start{
+    display: flex;
+    align-items: center;
+}
+
+.pic{
+    border: 8px solid brown;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+.speech{
+    margin: 50px;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.intro p{
+    
+    font-family: 'Cedarville Cursive', cursive;
+   
+    font-size: 2.8rem;
+}
+.future{
+    text-align: center;
+    font-size: 2rem;
+}
+#footer{
+    background-color: brown;
+}
+.container{
+    
+  
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
