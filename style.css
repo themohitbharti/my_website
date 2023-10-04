@@ -111,6 +111,7 @@ background-color: rgb(163, 238, 233) ;
     width: 600px;
     position: absolute;
     top: 58px;
+    font-size: 5rem;
     font-weight: 1500;
     font-family: 'DM Sans', sans-serif;
 }
