@@ -121,12 +121,12 @@ background-color: rgb(163, 238, 233) ;
 .speech{
     margin: 50px;
     margin-left: 80px;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-bottom: 60px;
 
     font-family: 'Cedarville Cursive', cursive;
    
-    font-size: 2.8rem;
+    font-size: 2.3rem;
 }
 
 .future{
