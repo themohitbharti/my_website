@@ -137,6 +137,7 @@ background-color: rgb(163, 238, 233) ;
 #footer{
     background-color: rgb(8, 191, 212);
 }
+
 .container{
     
   
@@ -145,4 +146,46 @@ background-color: rgb(163, 238, 233) ;
     margin-right: auto;
    
 }
+
+form{
+    height: 300px;
+}
+#contact{
+    font-size: 2em;
+}
+.details{
+    display: flex;
+    gap: 140px;
+}
+.detail{
+    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.set{
+    display: flex;
+    margin: 20px;
+}
+#name{
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+.detail input{
+    border-radius: 25px;
+    width: 16em;
+}
+#mess{
+    border-radius: 25px;
+}
+.detail button{
+    background-color: rgb(4, 154, 247);
+    color: aliceblue;
+    border-radius: 15px;
+    font-size: 1.2em;
+    width: 150px;
+}
+
+
 
