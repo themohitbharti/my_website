@@ -27,7 +27,7 @@ body{
     border-radius: 10px;
 }
 .nav-item:hover{
-    background-color: rgba(11, 38, 84, 0.455);
+    background-color: rgba(29, 214, 230, 0.841);
 }
 .dropdown-menu{
     
@@ -48,7 +48,7 @@ body{
 }
 .dropdown-item:hover{
     color: white;
-    background-color:rgb(56, 206, 214);
+    background-color:rgba(29, 214, 230, 0.841);
 }
 
 .intro{
