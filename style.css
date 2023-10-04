@@ -13,7 +13,11 @@ header li{
 }
 body{
     background-color: rgb(194, 237, 234);
+    flex-direction: column;
+    display: flex;
+    
 }
+
 
 .nav{
     background-color: rgb(8, 191, 212);
@@ -51,18 +55,36 @@ body{
     background-color:rgba(29, 214, 230, 0.841);
 }
 
+.section1{
+display: flex;
+flex: 1;
+background-color: rgb(163, 238, 233) ;
+}
+
 .intro{
+    position: relative;
+    top: 5vh;
     height: 600px;
-    
+    width: 100%;
+    display: flex;
+    align-items: center;
    
-   margin: 100px ;
-   margin-left: 125px;
+    margin: 60px ;
+   margin-left: 60px; 
+   margin-right: 60px;
 
   
 }
 .start{
+   margin-top: 135px;
+   margin-bottom: 50px;
+    height: 600px;
     display: flex;
     align-items: center;
+}
+.writing{
+   margin-top: 50px;
+    height: 500px;
 }
 
 .pic{
@@ -72,19 +94,42 @@ body{
     width: 500px;
     float: left;
 }
+.name{
+    position: absolute;
+    top: -5vh;
+    margin: 50px;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: 900;
+    font-size: 4.2rem;
+}
+#iam{
+    font-style: italic;
+}
+#mohit{
+    width: 600px;
+    position: absolute;
+    top: 58px;
+    font-weight: 1500;
+    font-family: 'DM Sans', sans-serif;
+}
+#mohit span{
+    color: rgb(21, 5, 143);
+}
 .speech{
     margin: 50px;
     margin-left: 80px;
     margin-top: 60px;
     margin-bottom: 60px;
-}
-.intro p{
-    
+
     font-family: 'Cedarville Cursive', cursive;
    
     font-size: 2.8rem;
 }
+
 .future{
+    margin: 100px;
     text-align: center;
     font-size: 2rem;
 }
