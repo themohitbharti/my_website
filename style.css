@@ -146,15 +146,12 @@ background-color: rgb(163, 238, 233) ;
     display: grid;
     
 }
-.skill-item1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-/* .skill-item{
+
+.skill-item{
  
     padding: 1%;
     margin-left: 5em;
-} */
+}
 .skill-item p{
     font-weight: 600;
     font-size: 1.4em;
