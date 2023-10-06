@@ -204,6 +204,7 @@ flex: 1;
 }
 #footer{
     background-color: rgb(8, 191, 212);
+    background-image: linear-gradient(rgb(17, 125, 227), rgb(7, 194, 222));
 }
 
 .container{
