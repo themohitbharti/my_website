@@ -15,7 +15,7 @@ body{
     background-color: rgb(194, 237, 234);
     flex-direction: column;
     display: flex;
-    
+    background-image: linear-gradient(rgb(163, 238, 233), aqua);
 }
 
 
@@ -25,6 +25,7 @@ body{
     height: 5rem; 
     display: flex;
     align-items: center;
+    background-image: linear-gradient(rgb(17, 125, 227), rgb(7, 194, 222));
     
 }
 .nav-item{
@@ -58,7 +59,8 @@ body{
 .section1{
 display: flex;
 flex: 1;
-background-color: rgb(163, 238, 233) ;
+/* background-color: rgb(163, 238, 233) ; */
+/* background-image: linear-gradient(rgb(163, 238, 233), aqua); */
 }
 
 .intro{
@@ -128,6 +130,10 @@ background-color: rgb(163, 238, 233) ;
    
     font-size: 2.3rem;
 }
+
+.section2{
+    /* background-image: linear-gradient(rgb(163, 238, 233), aqua); */
+}
 .skills{
     display: flex;
     flex-direction: column;
@@ -165,6 +171,7 @@ background-color: rgb(163, 238, 233) ;
     border-radius: 25px;
     box-shadow: 4px 4px 10px #494949;
     transition: transform 0.3s ease-in-out;
+    background-image: linear-gradient(skyblue, aqua);
 }
 
 .skill-item:hover{
