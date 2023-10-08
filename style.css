@@ -171,7 +171,7 @@ flex: 1;
     border-radius: 25px;
     box-shadow: 4px 4px 10px #494949;
     transition: transform 0.3s ease-in-out;
-    background-image: linear-gradient(skyblue, aqua);
+    background-image: linear-gradient(rgb(86, 240, 233), rgb(29, 124, 218));
 }
 
 .skill-item:hover{
