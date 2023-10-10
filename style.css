@@ -176,7 +176,7 @@ flex: 1;
 
 .skill-item:hover{
     transform: scale(1.1);
-   
+   background-image: linear-gradient(rgb(29, 124, 218), rgb(86, 240, 233));
 }
 .skill-item p{
     font-weight: 600;
