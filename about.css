@@ -16,6 +16,7 @@ header{
 }
 .m_heading p{
    background-image: linear-gradient(rgb(86, 240, 233), rgb(29, 124, 218));
+   
   font-weight: bold;
   font-size: 5rem;
 }
@@ -37,7 +38,7 @@ header{
   border-radius: 20px;
     padding: 4%;
     margin: 10%;
-    background-color: #a52a2a;
+    background-image: linear-gradient(rgb(86, 240, 233), rgb(29, 124, 218));
 }
 
 .m_card img{
